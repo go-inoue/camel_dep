@@ -40,17 +40,148 @@
 
 
 <pre><code class="language-conllu">
-1 ميراث مِيرَاث NOUN N------S1I Case=Nom|Definite=Ind|Number=Sing 6 nsubj 6:nsubj Vform=مِيرَاثٌ|Gloss=inheritance,heritage|Root=w_r__t|Translit=mīrāṯun|LTranslit=mīrāṯ
-2 ب بِ ADP P--------- AdpType=Prep 3 case 3:case SpaceAfter=No|Vform=بِ|Gloss=by,with|Root=bi|Translit=bi|LTranslit=bi
-3 300 300 NUM Q--------- NumForm=Digit 1 nummod 1:nummod Vform=٣٠٠|Translit=300
-4 الف أَلف NUM QM-----S2R Case=Gen|Definite=Cons|Number=Sing|NumForm=Word 3 nummod 3:nummod Vform=أَلفِ|Gloss=thousand|Root='_l_f|Translit=ʾalfi|LTranslit=ʾalf
-5 دولار دُولَار NOUN N------S2I Case=Gen|Definite=Ind|Number=Sing 4 nmod 4:nmod:gen Vform=دُولَارٍ|Gloss=dollar|Root=dUlAr|Translit=dūlārin|LTranslit=dūlār
-6 يقلب قَلَّب VERB VIIA-3MS-- Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act 0 root 0:root Vform=يُقَلِّبُ|Gloss=turn_upside_down|Root=q_l_b|Translit=yuqallibu|LTranslit=qallab
-7 حياة حَيَاة NOUN N------S4R Case=Acc|Definite=Cons|Number=Sing 6 obj 6:obj Vform=حَيَاةَ|Gloss=life|Root=.h_y_y|Translit=ḥayāta|LTranslit=ḥayāt
-8 متشرد مُتَشَرِّد ADJ A-----MS2I Case=Gen|Definite=Ind|Gender=Masc|Number=Sing 7 amod 7:amod Vform=مُتَشَرِّدٍ|Gloss=homeless,displaced|Root=^s_r_d|Translit=mutašarridin|LTranslit=mutašarrid
-9 اميركي أَمِيرِكِيّ ADJ A-----MS2I Case=Gen|Definite=Ind|Gender=Masc|Number=Sing 8 amod 8:amod Vform=أَمِيرِكِيٍّ|Gloss=American|Root='amIrik|Translit=ʾamīrikīyin|LTranslit=ʾamīrikīy
+  1 لونغ luwnog_1 PROPN NOUN_PROP Definite=Ind|Gender=Masc|Number=Sing 0 root _ bw=luwnog
+  2 بيتش biyt$_1 PROPN NOUN_PROP Definite=Ind|Gender=Masc|Number=Sing 1 flat _ bw=biyt$
+  3 ( DEFAULT PUNCT PUNC _ 4 punct _ bw=(
+  4 الولايات wilAyap_1 NOUN DET+NOUN+NSUFF_FEM_PL+CASE_DEF_NOM Case=Nom|Definite=Def|Gender=Fem|Number=Plur 1 nmod _ bw=AlwilAyAtu
+  5 المتحدة mut~aHid_1 ADJ DET+ADJ+NSUFF_FEM_SG+CASE_DEF_NOM Case=Nom|Definite=Def|Gender=Fem|Number=Sing 4 amod _ bw=Almut~aHidapu
+  6 ) DEFAULT PUNCT PUNC _ 4 punct _ bw=)
+  7 15-7 DEFAULT NUM NOUN_NUM NumForm=Digit 1 nummod _ bw=15-7
+  8 ( DEFAULT PUNCT PUNC _ 9 punct _ bw=(
+  9 اف &lt;if_1 PROPN ABBREV _ 1 nmod _ bw=&lt;if
+  10 ب b_1 PROPN ABBREV _ 9 flat _ bw=b
+  11 ) DEFAULT PUNCT PUNC _ 9 punct _ bw=)
+  12 - DEFAULT PUNCT PUNC _ 1 punct _ bw=-
+  13 كل kul~_1 NOUN NOUN_QUANT+CASE_DEF_NOM Case=Nom|Definite=Com|Gender=Masc|Number=Sing 15 nsubj _ bw=kul~u
+  14 شيء $ayo'_1 NOUN NOUN+CASE_INDEF_GEN Case=Gen|Definite=Ind|Gender=Masc|Number=Sing 13 nmod:poss _ bw=$ayo'K
+  15 تغير tagay~ar_1 VERB PV+PVSUFF_SUBJ:3MS Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Voice=Act 1 ccomp _ bw=tagay~ara
+  16 في fiy_1 ADP PREP AdpType=Prep 17 case _ bw=fiy
+  17 حياة HayAp_1 NOUN NOUN+NSUFF_FEM_SG+CASE_DEF_GEN Case=Gen|Definite=Com|Gender=Fem|Number=Sing 15 obj _ bw=HayAapi
+  18 المتشرد muta$ar~id_1 NOUN DET+ADJ+CASE_DEF_GEN Case=Gen|Definite=Def|Gender=Masc|Number=Sing 17 nmod:poss _ bw=Almuta$ar~idi
+  19 ستيفن stiyfin_1 PROPN NOUN_PROP Definite=Ind|Gender=Masc|Number=Sing 18 nmod _ bw=stiyfin
+  20 كنت kinot_1 PROPN NOUN_PROP Definite=Ind|Gender=Masc|Number=Sing 19 flat _ bw=kinot
+  21-22 عندما _ _ _ _ _ _ _ _
+  21 عند EinodamA_1 NOUN NOUN+CASE_DEF_ACC Case=Acc|Definite=Com|Gender=Masc|Number=Sing 15 nmod _ bw=Einoda
+  22 ما mA SCONJ SUB_CONJ _ 23 mark _ bw=mA
+  23 عثرت Eavar-u_1 VERB PV+PVSUFF_SUBJ:3FS Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Person=3|Voice=Act 21 ccomp _ bw=Eavarat
+  24-25 عليه _ _ _ _ _ _ _ _
+  24 علي EalaY_1 ADP PREP AdpType=Prep 25 case _ bw=EalaY
+  25 ه h PRON PRON_3MS Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs 23 obj _ bw=hi
+  26-27 شقيقته _ _ _ _ _ _ _ _
+  26 شقيقت $aqiyqap_1 NOUN NOUN+NSUFF_FEM_SG+CASE_DEF_NOM Case=Nom|Definite=Com|Gender=Fem|Number=Sing 23 nsubj _ bw=$aqiyqatu
+  27 ه h PRON POSS_PRON_3MS Case=Gen|Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs 26 nmod:poss _ bw=hu
+  28 بعد baEod_1 ADV NOUN+CASE_DEF_ACC Case=Acc|Definite=Com|Gender=Masc|Number=Sing 23 advmod _ bw=baEoda
+  29 عناء EanA'_1 NOUN NOUN+CASE_INDEF_GEN Case=Gen|Definite=Ind|Gender=Masc|Number=Sing 28 nmod:poss _ bw=EanA'K
+  30 طويل Tawiyl_1 ADJ ADJ+CASE_INDEF_GEN Case=Gen|Definite=Ind|Gender=Masc|Number=Sing 29 amod _ bw=TawiylK
+  31-33 لتبلغه _ _ _ _ _ _ _ _
+  31 ل l ADP PREP AdpType=Prep 32 case _ bw=li
+  32 تبلغ >abolag_1 VERB IV3FS+IV+IVSUFF_MOOD:S Aspect=Imp|Gender=Fem|Mood=Sub|Number=Sing|Person=3|Voice=Act 23 xcomp _ bw=tuboliga
+  33 ه h PRON IVSUFF_DO:3MS Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs 32 obj _ bw=hu
+  34-36 بانه _ _ _ _ _ _ _ _
+  34 ب b ADP PREP AdpType=Prep 36 case _ bw=bi
+  35 ان bi>an~a_1 SCONJ SUB_CONJ _ 36 mark _ bw=>an~a
+  36 ه h PRON PRON_3MS Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs 32 iobj _ bw=hu
+  37 ورث wariv-i_1 VERB PV+PVSUFF_SUBJ:3MS Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Voice=Act 36 ccomp _ bw=wariva
+  38 300 DEFAULT NUM NOUN_NUM NumForm=Digit 40 nummod _ bw=300
+  39 الف >alof_1 NUM NOUN_NUM+CASE_DEF_ACC Case=Acc|Definite=Com|Gender=Masc|Number=Sing|NumForm=Word 38 compound _ bw=>alofa
+  40 دولار duwlAr_1 NOUN NOUN+CASE_INDEF_GEN Case=Gen|Definite=Ind|Gender=Masc|Number=Sing 37 obj _ bw=duwlArK
+  41-44 وبانه _ _ _ _ _ _ _ _
+  41 و w CCONJ CONJ _ 44 cc _ bw=wa
+  42 ب b ADP PREP AdpType=Prep 44 case _ bw=bi
+  43 ان bi>an~a_1 SCONJ SUB_CONJ _ 44 mark _ bw=>an~a
+  44 ه h PRON PRON_3MS Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs 36 obj _ bw=hu
+  45 بات bAt-i_1 VERB PV+PVSUFF_SUBJ:3MS Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Person=3|Voice=Act 44 ccomp _ bw=bAta
+  46 قادرا qAdir_2 ADJ ADJ+CASE_INDEF_ACC Case=Acc|Definite=Ind|Gender=Masc|Number=Sing 45 amod _ bw=qAdirAF
+  47 على EalaY_1 ADP PREP AdpType=Prep 48 case _ bw=EalaY
+  48 وضع waDoE_1 NOUN NOUN+CASE_DEF_GEN Case=Gen|Definite=Com|Gender=Masc|Number=Sing 46 obj _ bw=waDoEi
+  49 حد Had~_1 NOUN NOUN+CASE_INDEF_GEN Case=Gen|Definite=Ind|Gender=Masc|Number=Sing 48 nmod:poss _ bw=Had~K
+  50-51 لعشرين _ _ _ _ _ _ _ _
+  50 ل l ADP PREP AdpType=Prep 52 case _ bw=li
+  51 عشرين Ei$oruwn_1 NUM NOUN_NUM+NSUFF_MASC_PL_GEN Case=Gen|Definite=Ind|Gender=Masc|Number=Plur|NumForm=Word 52 nummod _ bw=Ei$oriyna
+  52 سنة sanap_1 NOUN NOUN+NSUFF_FEM_SG+CASE_INDEF_ACC Case=Acc|Definite=Ind|Gender=Fem|Number=Sing 48 obj _ bw=sanapF
+  53 من min_1 ADP PREP AdpType=Prep 54 case _ bw=min
+  54 حياة HayAp_1 NOUN NOUN+NSUFF_FEM_SG+CASE_DEF_GEN Case=Gen|Definite=Com|Gender=Fem|Number=Sing 52 obj _ bw=HayAapi
+  55 التشرد ta$ar~ud_1 NOUN DET+NOUN+CASE_DEF_GEN Case=Gen|Definite=Def|Gender=Masc|Number=Sing 54 nmod:poss _ bw=Alta$ar~udi
+  56 في fiy_1 ADP PREP AdpType=Prep 57 case _ bw=fiy
+  57 شوارع $AriE_1 NOUN NOUN+CASE_DEF_GEN Case=Gen|Definite=Com|Gender=Masc|Number=Sing 55 obj _ bw=$awAriEi
+  58 مدينة madiynap_1 NOUN NOUN+NSUFF_FEM_SG+CASE_DEF_GEN Case=Gen|Definite=Com|Gender=Fem|Number=Sing 57 nmod:poss _ bw=madiynapi
+  59 لونغ luwnog_1 PROPN NOUN_PROP Definite=Ind|Gender=Masc|Number=Sing 58 nmod:poss _ bw=luwnog
+  60 بيتش biyt$_1 PROPN NOUN_PROP Definite=Ind|Gender=Masc|Number=Sing 59 flat _ bw=biyt$
+  61 في fiy_1 ADP PREP AdpType=Prep 62 case _ bw=fiy
+  62 ولاية wilAyap_1 NOUN NOUN+NSUFF_FEM_SG+CASE_DEF_GEN Case=Gen|Definite=Com|Gender=Fem|Number=Sing 58 obj _ bw=wilAyapi
+  63 كاليفورنيا kAliyfuwroniyA_1 PROPN NOUN_PROP Definite=Ind|Gender=Masc|Number=Sing 62 nmod:poss _ bw=kAliyfuwroniyA
+  64 . DEFAULT PUNCT PUNC _ 1 punct _ bw=.
 </code></pre>
 
+
+<pre><code class="language-conllu">
+# visual-style nodes yellow
+# visual-style arcs blue
+1 لونغ _ PROP NOM-PROP _ 0 --- _ _
+2 بيتش _ PROP NOM-PROP _ 1 --- _ _
+3 ( _ PNX PNX-PRN _ 4 MOD _ _
+4 الولايات _ NOM Al-NOM-At _ 1 MOD _ _
+5 المتحدة _ NOM Al-NOM-p _ 4 MOD _ _
+6 ) _ PNX PNX-PRN _ 4 MOD _ _
+7 15-7 _ NOM NOM-NUM _ 1 MOD _ _
+8 ( _ PNX PNX-PRN _ 9 MOD _ _
+9 إف _ PROP NOM-PROP _ 1 MOD _ _
+10 ب _ PROP NOM-PROP _ 9 --- _ _
+11 ) _ PNX PNX-PRN _ 9 MOD _ _
+12 - _ PNX PNX-DASH _ 1 MOD _ _
+13 كل _ NOM NOM _ 15 SBJ _ _
+14 شيء _ NOM NOM _ 13 IDF _ _
+15 تغير _ VRB VRB _ 0 --- _ _
+16 في _ PRT PRT-PREP _ 15 MOD _ _
+17 حياة _ NOM NOM-p _ 16 OBJ _ _
+18 المتشرد _ NOM Al-NOM _ 17 IDF _ _
+19 ستيفن _ PROP NOM-PROP _ 18 MOD _ _
+20 كنت _ PROP NOM-PROP _ 19 --- _ _
+21 عند _ NOM NOM-PREP _ 15 MOD _ _
+22 +ما _ PRT PRT _ 21 IDF _ _
+23 عثرت _ VRB VRB _ 22 OBJ _ _
+24 على _ PRT PRT-PREP _ 23 MOD _ _
+25 +ه _ NOM NOM-PRON _ 24 OBJ _ _
+26 شقيقة _ NOM NOM-p _ 23 SBJ _ _
+27 +ه _ NOM NOM-PRON _ 26 IDF _ _
+28 بعد _ NOM NOM-PREP _ 23 MOD _ _
+29 عناء _ NOM NOM _ 28 IDF _ _
+30 طويل _ NOM NOM _ 29 MOD _ _
+31 ل+ _ PRT PRT-l _ 23 MOD _ _
+32 تبلغ _ VRB VRB _ 31 OBJ _ _
+33 +ه _ NOM NOM-PRON _ 32 OBJ _ _
+34 ب+ _ PRT PRT-b _ 32 MOD _ _
+35 أن _ PRT PRT-An _ 34 OBJ _ _
+36 +ه _ NOM NOM-PRON _ 35 SBJ _ _
+37 ورث _ VRB VRB _ 35 PRD _ _
+38 300 _ NOM NOM-NUM _ 37 OBJ _ _
+39 ألف _ NOM NOM _ 38 IDF _ _
+40 دولار _ NOM NOM _ 39 IDF _ _
+41 و+ _ PRT PRT-w _ 34 MOD _ _
+42 ب+ _ PRT PRT-b _ 41 OBJ _ _
+43 أن _ PRT PRT-An _ 42 OBJ _ _
+44 +ه _ NOM NOM-PRON _ 43 SBJ _ _
+45 بات _ VRB VRB _ 43 PRD _ _
+46 قادرا _ NOM NOM-A _ 45 PRD _ _
+47 على _ PRT PRT-PREP _ 46 MOD _ _
+48 وضع _ NOM NOM _ 47 OBJ _ _
+49 حد _ NOM NOM _ 48 IDF _ _
+50 ل+ _ PRT PRT-l _ 48 MOD _ _
+51 عشرين _ NOM NOM-yn _ 50 OBJ _ _
+52 سنة _ NOM NOM-p _ 51 TMZ _ _
+53 من _ PRT PRT-PREP _ 51 MOD _ _
+54 حياة _ NOM NOM-p _ 53 OBJ _ _
+55 التشرد _ NOM Al-NOM _ 54 IDF _ _
+56 في _ PRT PRT-PREP _ 55 MOD _ _
+57 شوارع _ NOM NOM _ 56 OBJ _ _
+58 مدينة _ NOM NOM-p _ 57 IDF _ _
+59 لونغ _ PROP NOM-PROP _ 58 IDF _ _
+60 بيتش _ PROP NOM-PROP _ 59 --- _ _
+61 في _ PRT PRT-PREP _ 58 MOD _ _
+62 ولاية _ NOM NOM-p _ 61 OBJ _ _
+63 كاليفورنيا _ PROP NOM-PROP _ 62 IDF _ _
+64 . _ PNX PNX-DOT _ 15 MOD _ _
+  </code></pre>
 
 <p>This online repository contains dependency annotation documentation
 and visualizations, built using a combination of Jekyll, GitHub pages
