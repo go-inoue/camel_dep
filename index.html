@@ -39,7 +39,7 @@
           <h1 id="quick-introduction-test">Quick introduction (test)</h1>
 
 
-<pre><code class="language-conllu">
+<pre class="embedding"><code class="language-conllu">
   # text = وهنا النتائج الفنية ونذكر أولاً الفريق المضيف :
   # text_bw = whnA AlntA}j Alfnyp wn*kr >wlAF Alfryq AlmDyf :
   1 و w CCONJ CONJ _ 2 cc _ bw=wa
@@ -52,44 +52,9 @@
   8 الفريق fariyq_1 NOUN DET+NOUN+CASE_DEF_ACC Case=Acc|Definite=Def|Gender=Masc|Number=Sing 6 obj _ bw=Alfariyqa
   9 المضيف muDiyf_1 NOUN DET+NOUN+CASE_DEF_ACC Case=Acc|Definite=Def|Gender=Masc|Number=Sing 8 nmod _ bw=AlmuDiyfa
   10 : : PUNCT PUNC _ 2 punct _ bw=:
-  
-  # sent_id = ANN20020115.0108:14
-  # text = تورونتو رابتورز 72 - لوس أنجلس كليبرز 79
-  # text_bw = twrwntw rAbtwrz 72 - lws >njls klybrz 79
-  1 تورونتو tuwruwnotuw_1 PROPN NOUN_PROP Definite=Ind|Gender=Masc|Number=Sing 0 root _ bw=tuwruwnotuw
-  2 رابتورز rAbtuwrz_1 PROPN NOUN_PROP Definite=Ind|Gender=Masc|Number=Sing 1 flat _ bw=rAbtuwrz
-  3 72 DEFAULT NUM NOUN_NUM NumForm=Digit 1 nummod _ bw=72
-  4 - DEFAULT PUNCT PUNC _ 1 punct _ bw=-
-  5 لوس luws_1 PROPN NOUN_PROP Definite=Ind|Gender=Masc|Number=Sing 1 nmod _ bw=luws
-  6 أنجلس >anojilis_1 PROPN NOUN_PROP Definite=Ind|Gender=Masc|Number=Sing 5 flat _ bw=>anojilis
-  7 كليبرز kliybarz_1 PROPN NOUN_PROP Definite=Ind|Gender=Masc|Number=Sing 5 flat _ bw=kliybarz
-  8 79 DEFAULT NUM NOUN_NUM NumForm=Digit 5 nummod _ bw=79
-  
-  # sent_id = ANN20020115.0108:15
-  # text = سكرامنتو كينغز 103 - فينيكس صنز 100
-  # text_bw = skrAmntw kyngz 103 - fynyks Snz 100
-  1 سكرامنتو sakrAminotuw_1 PROPN NOUN_PROP Definite=Ind|Gender=Masc|Number=Sing 0 root _ bw=sakrAminotuw
-  2 كينغز kiyngz_1 PROPN NOUN_PROP Definite=Ind|Gender=Masc|Number=Sing 1 flat _ bw=kiyngz
-  3 103 DEFAULT NUM NOUN_NUM NumForm=Digit 1 nummod _ bw=103
-  4 - DEFAULT PUNCT PUNC _ 1 punct _ bw=-
-  5 فينيكس fiyniyks_1 PROPN NOUN_PROP Definite=Ind|Gender=Masc|Number=Sing 1 nmod _ bw=fiyniyks
-  6 صنز Sanoz_1 PROPN NOUN_PROP Definite=Ind|Gender=Masc|Number=Sing 5 flat _ bw=Sanoz
-  7 100 DEFAULT NUM NOUN_NUM NumForm=Digit 5 nummod _ bw=100
-  
-  # sent_id = ANN20020115.0108:16
-  # text = بورتلاند ترايل بلايزرز 96 - كليفلاند كافالييرز 64
-  # text_bw = bwrtlAnd trAyl blAyzrz 96 - klyflAnd kAfAlyyrz 64
-  1 بورتلاند buwrotlAnod_1 PROPN NOUN_PROP Definite=Ind|Gender=Masc|Number=Sing 0 root _ bw=buwrotlAnod
-  2 ترايل trAyl PROPN NOUN_PROP Definite=Ind|Gender=Masc|Number=Sing 1 flat _ bw=trAyl
-  3 بلايزرز blAyzrz PROPN NOUN_PROP Definite=Ind|Gender=Masc|Number=Sing 1 flat _ bw=blAyzrz
-  4 96 DEFAULT NUM NOUN_NUM NumForm=Digit 1 nummod _ bw=96
-  5 - DEFAULT PUNCT PUNC _ 1 punct _ bw=-
-  6 كليفلاند kliyfolAnd_1 PROPN NOUN_PROP Definite=Ind|Gender=Masc|Number=Sing 1 nmod _ bw=kliyfolAnd
-  7 كافالييرز kAfAloyiyrz_1 PROPN NOUN_PROP Definite=Ind|Gender=Masc|Number=Sing 6 flat _ bw=kAfAloyiyrz
-  8 64 DEFAULT NUM NOUN_NUM NumForm=Digit 6 nummod _ bw=64
 </code></pre>
 
-<pre><code class="language-conllu">
+<pre class="embedding"><code class="language-conllu">
 # visual-style nodes yellow
 # visual-style arcs blue
 1 و+ _ PRT PRT-w _ 2 MOD _ _
@@ -102,32 +67,6 @@
 8 الفريق _ NOM Al-NOM _ 6 OBJ _ _
 9 المضيف _ NOM Al-NOM _ 8 MOD _ _
 10 : _ PNX PNX _ 2 MOD _ _
-
-1 تورونتو _ PROP NOM-PROP _ 0 --- _ _
-2 رابتورز _ PROP NOM-PROP _ 1 --- _ _
-3 72 _ NOM NOM-NUM _ 1 MOD _ _
-4 - _ PNX PNX-DASH _ 1 MOD _ _
-5 لوس _ PROP NOM-PROP _ 1 MOD _ _
-6 أنجلس _ PROP NOM-PROP _ 5 --- _ _
-7 كليبرز _ PROP NOM-PROP _ 6 --- _ _
-8 79 _ NOM NOM-NUM _ 5 MOD _ _
-
-1 سكرامنتو _ PROP NOM-PROP _ 0 --- _ _
-2 كينغز _ PROP NOM-PROP _ 1 --- _ _
-3 103 _ NOM NOM-NUM _ 1 MOD _ _
-4 - _ PNX PNX-DASH _ 1 MOD _ _
-5 فينيكس _ PROP NOM-PROP _ 1 MOD _ _
-6 صنز _ PROP NOM-PROP _ 5 --- _ _
-7 100 _ NOM NOM-NUM _ 5 MOD _ _
-
-1 بورتلاند _ PROP NOM-PROP _ 0 --- _ _
-2 ترايل _ PROP NOM-PROP _ 1 --- _ _
-3 بلايزرز _ PROP NOM-PROP _ 2 --- _ _
-4 96 _ NOM NOM-NUM _ 1 MOD _ _
-5 - _ PNX PNX-DASH _ 1 MOD _ _
-6 كليفلاند _ PROP NOM-PROP _ 1 MOD _ _
-7 كافالييرز _ PROP NOM-PROP _ 6 --- _ _
-8 64 _ NOM NOM-NUM _ 6 MOD _ _
   </code></pre>
 
 <p>This online repository contains dependency annotation documentation
